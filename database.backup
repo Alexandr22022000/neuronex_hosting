@@ -1,0 +1,1 @@
+{"structure":{"sites":{"id":{"type":"BIGSERIAL","isKey":true},"port":{"type":"int4","isKey":false},"name":{"type":"text","isKey":false}}},"data":{"sites":[{"id":"0","port":9000,"name":"demo"}]}}
