@@ -1,8 +1,8 @@
 const express = require('express'),
     fs = require('fs'),
     path = require('path'),
-    CONFIG = require('./getConfig'),
-    QUERY = require('./query'),
+    CONFIG = require('./hosting/config'),
+    QUERY = require('./hosting/queryes'),
     pg = require('pg');
 
 const pool = pg.Pool({connectionString: CONFIG.DATABASE_URL});
